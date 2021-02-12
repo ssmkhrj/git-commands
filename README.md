@@ -1,6 +1,6 @@
 # Git Commands
 
-## Contributing to an open source project
+## Contributing To An Open Source Project
 
 > METHOD 1
 
@@ -38,3 +38,15 @@
   _"u" flag stand for upstream. And if we use this flag, for subsequent pushes we can simply run `git push`_
 
 - Finally you can go to github and on your repo you would see a message prompting that "_This branch is 1 commit ahead of username:main_" and a button for making the pull request, click the button and continue with the pull request.
+
+## Updating Remote Repository's URL
+
+```bash
+git remote set-url origin new_url
+```
+
+## Fetching Remote Repository's Current URL
+
+```bash
+git config --get remote.origin.url
+```
